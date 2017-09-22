@@ -1,0 +1,56 @@
+@fontface {
+  font-family: 'PT Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Droid+Sans:700|PT+Sans')
+}
+
+.vcenter {
+     display: flex;
+    align-items: center;
+}
+
+.vbottom {
+     display: flex;
+    align-items: baseline;
+}
+
+.th {
+    max-width: 120%;
+}
+
+.team-name {
+	font-family: 'PT Sans', sans-serif;
+	margin-top: 1.5vh;
+	font-size: 150%;
+}
+
+.add-team {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 150%;
+}
+
+.team-url {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 100%;
+}
+
+.team-not{
+	font-family: 'PT Sans', sans-serif;
+	margin-top: 1.5vh;
+	font-size: 80%;
+}
+
+.title-text {
+	font-size: 120%;
+	font-weight: bold;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.item{padding-top:1px;}
+
+.team-row .item:hover {
+    background: #edf5f9;
+    border-top: 1px solid #ffffff;
+    padding-top:0;
+}
